@@ -10,7 +10,7 @@ win.attributes('-topmost',True)
 
 nF = tkinter.Frame(win)
 l1 = tkinter.Label(nF,text="Roll a ")
-c1 = ttk.Combobox(nF,values=[4,6,8,10,12,20,100],width=3,justify='center')
+c1 = ttk.Combobox(nF,values=[4,6,8,10,12,20,100],width=3)
 c1.set(6)
 l2 = tkinter.Label(nF,text="sided die.")
 b = tkinter.Button(win,text="Click to roll")
