@@ -64,7 +64,7 @@ def clickFunction(event):
     number1 = text1.get()
     number1=float(number1)
     number2 = text2.get()
-    number2=float(number1)
+    number2=float(number2)
     
     divide = operator.get()
     print (divide)
